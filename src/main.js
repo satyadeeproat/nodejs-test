@@ -5,10 +5,9 @@ const Query = `
   
   type Book {
     title: String
-    author: Author
+    author: String
   }
   type Query {
-    _empty: String
     books: [Book]
   }
 `;
